@@ -71,5 +71,5 @@ cd ..
 The above code will compile an optimized binary. To use it, run:
 
 ```bash
-./target/release/stacks-node ./testnet/conf/neon-follower-conf.toml
+./target/release/stacks-node start --config=./testnet/conf/neon-follower-conf.toml
 ```
